@@ -1,0 +1,50 @@
+.chat-list{
+  width: auto;
+  margin: 150px auto;
+  margin-bottom: 120px;
+  padding: 10px;
+  margin-left: 220px;
+}
+.central{
+  max-width: 700px;
+  margin: auto;
+}
+
+.chat-list article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+.cabecalho-msg{
+  color: #ad4022;
+}
+.msg{
+  font-size: 16px;
+  color: #777;
+  margin-top: 5px;
+  line-height: 24px;
+}
+
+.btnExcluir {
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #da552f;
+  background: none;
+  margin-top: 10px;
+  color: #da552f;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+  width: 100%;
+  
+}
+.btnExcluir:hover{
+  background: #da552f;
+  color: #fff;
+}

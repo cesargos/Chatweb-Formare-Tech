@@ -1,0 +1,55 @@
+.main-header{
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  background: #da552f;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  display:flex;
+  position: fixed;
+  top: 0px;
+  justify-content: space-between;
+  align-items: center;
+  border: solid #aaa;
+  border-bottom-width: 3px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  z-index: 1;
+}
+
+.main-header span{
+  font-weight: bold;
+}
+
+.btn-logout{
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+  color:#da552f;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 0;
+  background-color: #fff;
+  transition: all 0.3s;
+  margin-right: 40px;
+}
+
+.btn-logout:hover{
+  border: 2px solid #fff;
+  background-color: #da552f ;
+  color: #fff;
+  cursor: pointer;
+}
+.main-header a {
+  height: 42px;
+  margin:0 20px;
+  color: #fff;
+  text-decoration:none;
+  transition: all 0.2s;
+}
+.main-header a:hover{
+
+  text-decoration:underline;
+}

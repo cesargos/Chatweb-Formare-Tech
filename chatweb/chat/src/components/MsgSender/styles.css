@@ -1,0 +1,55 @@
+.msg-sender{
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  background: #da552f;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  display:flex;
+  position: fixed;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  border: solid #aaa;
+  border-bottom-width: 0;
+  border-top-width: 3px;
+  border-right-width: 0;
+  border-left-width: 0;
+  z-index: 1;
+}
+.main-footer div{
+  height: 80px;
+  
+
+}
+
+.msg-field{
+
+  font-size: 1.1em;
+  margin-left:10px ;
+  border-radius: 5px;
+  height: 80px;
+  width: 50%;
+
+}
+
+.btn-send{
+  width: 100px;
+  height: 40px;
+  margin-left: 20px;
+  color:#da552f;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 0;
+  background-color: #fff;
+  transition: all 0.3s;
+  margin-right: 40px;
+}
+
+.btn-send:hover{
+  border: 2px solid #fff;
+  background-color: #da552f ;
+  color: #fff;
+  cursor: pointer;
+}
