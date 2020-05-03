@@ -1,14 +1,15 @@
 .chat-list{
   width: auto;
-  margin: 150px auto;
+  margin: 120px auto;
   margin-bottom: 120px;
   padding: 10px;
   margin-left: 220px;
 }
 .central{
   max-width: 700px;
-  margin: auto;
+  margin: 120px auto ;
 }
+
 
 .chat-list article {
   background: #fff;
