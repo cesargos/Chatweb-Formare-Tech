@@ -22,7 +22,7 @@ const pageLogin = ({user, setLoginUser,setConsultor, setPassword,login }) => {
 
 
   return (
-
+    <>
     <div className='login'>
       <h1>CHATWEB</h1>
       <p>
@@ -44,6 +44,9 @@ const pageLogin = ({user, setLoginUser,setConsultor, setPassword,login }) => {
       <button onClick={() => setLogin()}>Entrar</button>
 
      </div>
+      <p>Login: Consultor, Senha:1234 para entrar como consultor.</p>
+     </>
+  )
   )
 
 };
@@ -88,64 +91,3 @@ const searchUser = async (userName)=>{
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-function novoUser(){
-  dispatch({type:'LOGIN',userID:'novo id',userName:'novo usuario'})
-}
-
-
-
-function logar(){
-  if (chats.userName){
-    if (chats.userName.length>2){
-      if (chats.checked){
-        if (chats.userName==='Consultor'&&password==='1234'){
-          //entrar como consultor de uma maneira facil e pouco segura
-          dispatch({type:'LOGIN',userID:'0000',login:true,consultor:true});
-          
-        }
-        else{
-          alert('Login ou senha do Consultor Incorretos!')
-        }
-      }
-      else{
-        //logar como usuário normal
-        dispatch({type:'LOGIN',userID:'0000',login:true,consultor:false});
-        ;         
-      }
-    }
-    else{
-      alert('Nome de usuário muito curto!');
-    }
-  }
-  else{
-    alert('Digite o nome do usuário!')
-  }
-}
-*/
