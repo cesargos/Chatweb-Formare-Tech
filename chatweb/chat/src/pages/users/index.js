@@ -29,8 +29,7 @@ state = {
 
 
   agruparGrupos = ()=>{
-    console.log('agrupar grupos',Math.random(),this.state);
-    //let userWithGroup = this.addGrupos();   
+   
     const qtGrupos = parseInt(this.state.qtGrupos);
     let novoUsers = [...this.state.users];
 
@@ -71,8 +70,7 @@ state = {
             {users.filter((user)=>user.grupo===(i+1)).map(user => (
               <article key={user._id}>
 
-                Name:<span className='userName'> {user.name}</span><br />
-                grupo:<span className='userName'> {user.grupo}</span>
+                Name:<span className='userName'> {user.name}</span>
                 <div className='user-info'>
                   <p>ID:<strong> {user._id}</strong></p>
                   <p>Criado em: <strong>{new Date(user.createdAt).toLocaleString()}</strong></p>
